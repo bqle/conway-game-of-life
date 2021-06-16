@@ -11,9 +11,9 @@ render() {
 return (
     <button className="square" 
         style={{backgroundColor: this.props.value ? '#c37979' : '#ffffff',
-                transition: "all .5s ease",
-                WebkitTransition: "all .5s ease",
-                MozTransition: "all .5s ease"}} 
+                transition: "all .4s ease",
+                WebkitTransition: "all .4s ease",
+                MozTransition: "all .4s ease"}} 
         onClick={this.props.onClick} >
         {
         // this.props.value ? "1" : "0"
@@ -69,6 +69,7 @@ constructor(props) {
     }
     let history = [];
     this.isRunning = false;
+    this.genSpeed = 1;
     this.state = {
         board: defaultBoard,
         stepNumber: 0,
@@ -168,11 +169,13 @@ async startGame() {
 
     while (this.isRunning) {
         this.nextGen();
-        await sleep(2000);
+        await sleep(this.genSpeed * 1000);
     }
 }
 
-
+setSpeed(speed) {
+    this.genSpeed = speed;
+}
 
 jumpTo(step) {
     let currentBoard = this.state.history[step];
@@ -199,9 +202,16 @@ render() {
         <div className="game-info">
             <div >Conway's Game of Life</div>
             <div>
-            <button onClick={() => this.startGame()}>Start</button>
-            <button onClick={() => this.endGame()}>End</button>
-            <button onClick={() => this.reset()}>Reset</button>
+                <button onClick={() => this.startGame()}>Start</button>
+                <button onClick={() => this.endGame()}>End</button>
+                <button onClick={() => this.reset()}>Reset</button>
+            </div>
+            <br></br>
+            <div>
+                <div style={{font: '12px'}}>Speed</div>
+                <button onClick={() => this.setSpeed(2)}>Slow</button>
+                <button onClick={() => this.setSpeed(1)}>Medium</button>
+                <button onClick={() => this.setSpeed(0.5)}>Fast</button>
             </div>
             <ol>{moves}</ol>
         </div>
