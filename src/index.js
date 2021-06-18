@@ -198,7 +198,6 @@ render() {
 
     return (
     <div className="game">
-        
         <div className="game-info">
             <div >Conway's Game of Life</div>
             <div>
