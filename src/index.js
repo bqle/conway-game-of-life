@@ -63,7 +63,7 @@ constructor(props) {
     let defaultBoard = Array(m).fill(null).map(() => (Array(n)));
     for (let i = 0 ; i < defaultBoard.length; i++) {
         for (let j = 0; j < defaultBoard[0].length; j++) {
-            defaultBoard[i][j] = {i: cnt, value: false};
+            defaultBoard[i][j] = {i: i * n + j, value: false};
             cnt++;
         }
     }
