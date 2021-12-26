@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/conway-game-of-life/static/css/main.dde485ad.chunk.css",
+    "main.js": "/conway-game-of-life/static/js/main.13172000.chunk.js",
+    "main.js.map": "/conway-game-of-life/static/js/main.13172000.chunk.js.map",
+    "runtime-main.js": "/conway-game-of-life/static/js/runtime-main.409c5353.js",
+    "runtime-main.js.map": "/conway-game-of-life/static/js/runtime-main.409c5353.js.map",
+    "static/js/2.eb88094c.chunk.js": "/conway-game-of-life/static/js/2.eb88094c.chunk.js",
+    "static/js/2.eb88094c.chunk.js.map": "/conway-game-of-life/static/js/2.eb88094c.chunk.js.map",
+    "index.html": "/conway-game-of-life/index.html",
+    "static/css/main.dde485ad.chunk.css.map": "/conway-game-of-life/static/css/main.dde485ad.chunk.css.map",
+    "static/js/2.eb88094c.chunk.js.LICENSE.txt": "/conway-game-of-life/static/js/2.eb88094c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.409c5353.js",
+    "static/js/2.eb88094c.chunk.js",
+    "static/css/main.dde485ad.chunk.css",
+    "static/js/main.13172000.chunk.js"
+  ]
+}
