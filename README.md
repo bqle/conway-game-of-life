@@ -1,6 +1,6 @@
 # Conway's Game of Life
 
-A simple interactive demo for Conway's game of life where you populate the grid with certain squares and watch it grow!
+A simple [interactive demo](https://bqle.github.io/conway-game-of-life/) for Conway's game of life where you populate the grid with certain squares and watch it grow!
 
 ## Description
 
