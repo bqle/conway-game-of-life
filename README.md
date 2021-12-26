@@ -5,7 +5,7 @@ A simple interactive demo for Conway's game of life where you populate the grid 
 ## Description
 
 The game of life is a world designed by John Conway to mimic town populations. Whether a grid survives to the next generation depends on its neighbors. If there are too many live neighbors, a square dies from overpopulation; if there are too few, it dies from isolation; and it moves on when the number of neighbors is just right.<br>
-Naturally, this gives rise to many cool ![cool patterns](https://www.youtube.com/watch?v=C2vgICfQawE&ab_channel=RationalAnimations)
+Naturally, this gives rise to many [cool patterns](https://www.youtube.com/watch?v=C2vgICfQawE&ab_channel=RationalAnimations)
 With this demo, you can try some of them out for yourself!
 
 ### Running the demo
