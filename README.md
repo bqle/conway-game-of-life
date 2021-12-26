@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Conway's Game of Life
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple interactive demo for Conway's game of life where you populate the grid with certain squares and watch it grow!
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The game of life is a world designed by John Conway to mimic town populations. Whether a grid survives to the next generation depends on its neighbors. If there are too many live neighbors, a square dies from overpopulation; if there are too few, it dies from isolation; and it moves on when the number of neighbors is just right.<br>
+Naturally, this gives rise to many cool ![cool patterns](https://www.youtube.com/watch?v=C2vgICfQawE&ab_channel=RationalAnimations)
+With this demo, you can try some of them out for yourself!
 
-### `npm start`
+### Running the demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Create some patterns of your choice by clicking the squares on the grid
+* Press "Start" on the left column to simulate the game
+* Configure the update speed however you want on the left hand side. 
+* Press "End" at any point to stop the simulation. Or the game will stop once the grid doesn't change from one generation to the next.
+* You can go back to any previou generations by clicking from the generated list on the left.<br>
+You can also edit a generation at any point and press start again to see how it change!
+* Have some fun in the sun!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Demo
 
-### `npm test`
+![Sample Grid 1](demo_files/sample1.png)
+![Sample Grid 2](demo_files/sample2.png)
+![Watch a demo!](demo_files/video.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Author
 
-### `npm run build`
+ [@Benjamin Le](bqle@seas.upenn.edu)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Acknowledgments
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
